@@ -82,12 +82,39 @@ Un gestor de contrasenyes és com una **caixa forta digital xifrada** on es guar
 ## 7. Com es configura Proton Pass
 
 1. **Instal·lar** l'app des de la web oficial de Proton.
+
+   *No hi ha cap captura de la instal·lació de l'app entre les imatges disponibles.*
 2. **Iniciar sessió** amb una contrasenya llarga i única, i **activar la MFA**.
+
+   ![Pantalla inicial de Proton Pass per iniciar sessió o crear un compte](img/proton-inici-sessio.png)
+
+   *No hi ha cap captura de l'activació de la MFA entre les imatges disponibles.*
+
 3. **Afegir l'extensió** del navegador (comprovant que l'editor és Proton AG).
+
+   ![Confirmació del navegador per afegir l'extensió de Proton Pass](img/proton-afegir-extensio.png)
+
+   ![Extensió de Proton Pass instal·lada i activada a Chrome](img/proton-extensio-instal-lada.png)
+
 4. **Generar una contrasenya**: mode aleatori, 20 caràcters o més, amb majúscules, números i símbols.
+
+   ![Formulari per crear una credencial, amb el control per generar una contrasenya](img/proton-generar-password.png)
+
 5. **Guardar les credencials** de cada servei.
+
+   ![Credencial guardada a Proton Pass amb la contrasenya oculta](img/proton-credencial-guardada.png)
+
 6. **Fer servir l'autocompletat**, mirant sempre que el domini sigui el correcte.
-7. **Fer una còpia de seguretat xifrada** (ZIP amb PGP) i guardar-la en un lloc segur, **separada de la frase de pas**.
+
+   ![Proton Pass oferint una credencial per completar l'inici de sessió](img/proton-autocompletat.png)
+
+7. **Fer una còpia de seguretat xifrada amb PGP** i guardar-la en un lloc segur, **separada de la frase de pas**.
+
+   ![Menú de Proton Pass amb l'opció d'exportar](img/proton-menu-exportar.png)
+
+   ![Pantalla d'exportació: PGP és recomanat, però a la captura està seleccionat ZIP sense xifrar](img/proton-triar-xifrat-pgp.png)
+
+   **Important:** en aquesta captura es veu ZIP seleccionat. Abans d'exportar, tria «Cifrado con PGP»; un ZIP sense xifrar deixa les contrasenyes exposades.
 
 ---
 
@@ -107,14 +134,30 @@ Un gestor de contrasenyes és com una **caixa forta digital xifrada** on es guar
 ## 9. Com s'activa el 2FA amb Google Authenticator
 
 1. **Instal·lar** Google Authenticator al mòbil.
+
+   ![Fitxa de Google Authenticator a la botiga d'aplicacions](img/google-authenticator-app.png)
+
 2. Entrar al compte de Google, a la pestanya **Seguretat**.
+
+   ![Apartat de seguretat del Compte de Google](img/google-seguretat.png)
+
 3. Anar a **Verificació en dos passos** i triar **Authenticator**. Apareix un **codi QR**.
+
+   ![Opcions de verificació en dos passos amb l'opció Authenticator](img/google-triar-authenticator.png)
+
 4. **Escanejar el QR** amb l'aplicació del mòbil. Així el compte queda vinculat.
+
+   ![Authenticator apareix vinculat al compte després de configurar-lo](img/google-authenticator-vinculat.png)
+
 5. **Escriure el codi** del mòbil a l'ordinador per validar-ho.
+
+   *No hi ha cap captura d'aquest pas entre les imatges disponibles.*
 
 ✅ A partir d'ara, per entrar cal la **contrasenya + el codi**.
 
 > **Consell:** guardeu els **codis de recuperació** que ofereix Google en un lloc segur. Si perdeu el mòbil, són la manera de tornar a entrar al compte.
+
+> **Privacitat:** no compartiu mai codis QR, codis de verificació ni captures que mostrin contrasenyes o dades personals. Les captures d'aquesta guia s'han seleccionat i retallat per evitar exposar-les.
 
 ---
 
