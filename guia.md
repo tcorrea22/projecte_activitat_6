@@ -88,7 +88,6 @@ Un gestor de contrasenyes és com una **caixa forta digital xifrada** on es guar
 
    ![Pantalla inicial de Proton Pass per iniciar sessió o crear un compte](img/proton-inici-sessio.png)
 
-   *No hi ha cap captura de l'activació de la MFA entre les imatges disponibles.*
 
 3. **Afegir l'extensió** del navegador (comprovant que l'editor és Proton AG).
 
@@ -151,7 +150,7 @@ Un gestor de contrasenyes és com una **caixa forta digital xifrada** on es guar
 
 5. **Escriure el codi** del mòbil a l'ordinador per validar-ho.
 
-   *No hi ha cap captura d'aquest pas entre les imatges disponibles.*
+   *No hi ha cap captura d'aquest pas entre les imatges disponibles. Ja que son dades privades*
 
 ✅ A partir d'ara, per entrar cal la **contrasenya + el codi**.
 
