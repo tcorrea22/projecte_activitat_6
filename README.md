@@ -29,7 +29,6 @@ Seguretat lògica: gestió de contrasenyes
 - Responsabilitat
 - Relació interpersonal
 
-
 ## Enunciat de l'activitat
 
 ### Fase 1: Anàlisi i Justificació
